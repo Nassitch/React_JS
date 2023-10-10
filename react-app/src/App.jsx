@@ -17,11 +17,12 @@ const pokemonList = [
   },
 ];
 
+const pokemonSelected = pokemonList[0];
+
 function App() {
-  const pokemonChoisi = pokemonList[0];
   return (
     <div>
-      <PokemonCard pokemon={pokemonChoisi}/>
+      <PokemonCard pokemon={pokemonSelected}/>
     </div>
   );
 }
