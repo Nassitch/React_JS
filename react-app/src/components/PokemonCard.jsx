@@ -11,7 +11,7 @@ const pokemonList = [
 ];
 
 function PokemonCard() {
-  let pokemon = pokemonList[1];
+  let pokemon = pokemonList[0];
   return <figure>
   { pokemon.imgSrc !== undefined ?
      (<img src={pokemon.imgSrc} alt={pokemon.name}/>)
