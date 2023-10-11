@@ -9,7 +9,6 @@ PokemonCard.propTypes = {
 }
 
 function PokemonCard( props ) {
-  console.log(props);
 
   return <figure>
   { props.pokemon.imgSrc !== undefined ?
